@@ -3,13 +3,13 @@ import matplotlib.pyplot as plt
 import cvlib as cv
 import numpy as np
 import os
-
+dir = 'datasets/with_mask/'
 file_list = os.listdir('datasets/with_mask/')
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 count = 0
 for file in file_list:
-    image_path = 'test.png'
-    img = cv2.imread(image_path)
+    image_path = file
+    img = cv2.imread(dir + image_path)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = face_cascade.detectMultiScale(gray, 1.3,5)
     if len(faces) > 0:
