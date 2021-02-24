@@ -10,3 +10,6 @@ To-dos: </br>
 From 102 Frontal Faces:
 맨얼굴 인식률: 100%</br>
 가상 마스크 씌웠을 때 인식률: 80/100
+
+</br>
+https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/
