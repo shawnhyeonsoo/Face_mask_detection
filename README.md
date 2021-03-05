@@ -12,3 +12,8 @@ From 102 Frontal Faces:
 
 </br>
 https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/
+
+</br>
+</br>
+RMFD Dataset: </br>
+CNN model :
