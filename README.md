@@ -40,7 +40,7 @@ Training data: Validation Data = 0.85: 0.15 </br>
 </br>
 </br>
 Accuracy Results from test on 2021. 03. 10: </br>
-- On Validation set: 
+- On Validation set: 99.61%
 - Masked Faces Only: 92.24%
 - Unmasked Faces Only: 96.16% 
 
