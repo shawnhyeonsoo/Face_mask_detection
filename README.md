@@ -16,13 +16,33 @@ https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv
 </br>
 </br>
 RMFD Dataset: </br>
-CNN model :
+</br>
+
+CNN model : </br>
+- c1: Convolution Layer: 32, (3 x 3), activation: ReLU
+- c2: Convolution Layer: 32, (3 x 3), activation ReLU
+- m3: Max Pooling: (2,2), Dropout (0.25)
+- c4: Convolution Layer: 64, (3 x 3), activation: ReLU
+- c5: Convolution Layer: 64, (3 x 3), activation: ReLU
+- m6: Max Pooling, (2, 2) , Dropout (0.25)
+- c6: Convolution Layer: 64, (3 x 3), activation: ReLU
+- d7: Dropout (0.5)
+- f8: Fully Connected Layers (64, activation: ReLU)
+- f9: Fully Connected Layers (32, activation: ReLU)
+- f10: Output Layer: (2, activation: Softmax)
 
 
 ######
 2230 Masked Faces </br>
 90468 Unmasked Faces </br>
+Total = 2230 + 90468 = 
+Training data: Validation Data = 0.85: 0.15 </br>
 </br>
+</br>
+Accuracy Results from test on 2021. 03. 10: </br>
+- On Validation set: 
+- Masked Faces Only: 92.24%
+- Unmasked Faces Only: 96.16% 
 
-Tested on Masked Faces: 92.24%</br>
-Tested on Unmasked Faces: 96.16% <br/>
+
+> Requires separate test data for clear comprehension
