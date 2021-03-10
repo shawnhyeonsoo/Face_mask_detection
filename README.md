@@ -17,3 +17,12 @@ https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv
 </br>
 RMFD Dataset: </br>
 CNN model :
+
+
+######
+2230 Masked Faces </br>
+90468 Unmasked Faces </br>
+</br>
+
+Tested on Masked Faces: 92.24%</br>
+Tested on Unmasked Faces: 96.16% <br/>
